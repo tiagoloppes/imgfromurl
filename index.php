@@ -8,4 +8,6 @@ preg_match('<img[^>]src="([^>]+)">',$file, $matches);
 
 echo '<pre>';
 print_r($matches);
+
+echo '<hr>';
 ?>
